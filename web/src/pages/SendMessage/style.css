@@ -1,0 +1,113 @@
+header {
+    background-color: #ccccd3;
+    padding: 70px;
+    box-shadow: 0 5px 5px #c8c8d3aa;
+}
+
+main {
+    width: 90%;
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+main h2 {
+    margin-top: 30px;
+}
+
+main p {
+    margin: 5px 0 50px 0;
+    font-size: 16px;
+}
+
+main button.showForm {
+    background-color: #ddd;
+    color: #444;
+    font-weight: 700;
+
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #cdcdd6;
+}
+
+main button.showForm:hover {
+    filter: brightness(95%);
+}
+
+main section {
+    padding: 40px;
+    height: 580px;
+    background-color: #ddd;
+    border-radius: 4px;
+    transition: .4s all ease;
+}
+
+main section.hide {
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 0;
+    opacity: 0;
+    visibility: hidden;
+    margin-top: -70px;
+}
+
+main section.hide form, main section.hide p {
+    display: none;
+}
+
+main section form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+main section form .outline {
+    border-top: 1px solid #afafb6;
+    border-bottom: 1px solid #afafb6;
+    margin-bottom: 10px;
+}
+
+main section form input {
+    text-align: center;
+}
+
+main section form textarea {
+    height: 150px;
+    margin-top: 20px;
+    resize: vertical;
+}
+
+main section form button {
+    background-color: #4949f0;
+    color: #fff;
+    font-weight: 700;
+}
+
+main section form button:hover {
+    filter: brightness(90%);
+}
+
+main section form button {
+    justify-content: center;
+}
+
+main section form input,
+main section form textarea {
+    background-color: #fff;
+}
+
+main section form input,
+main section form textarea,
+main section form button {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    border: 1px solid #afafb6;
+}
+
+main section p {
+    margin-top: 10px;
+    font-size: 16px;
+}
